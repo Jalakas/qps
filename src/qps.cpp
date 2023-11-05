@@ -1192,7 +1192,7 @@ void Qps::menu_renice()
                     // could be changed...
                     QMessageBox::warning( this
                                         , tr( "Permission denied" )
-                                        , tr( "You do not have permission to renice process %1 (%2).Only the process owner and the super-user are allowed to do that." )
+                                        , tr( "You do not have permission to renice process %1 (%2). Only the process owner and the super-user are allowed to do that." )
                                           .arg( p->pid )
                                           .arg( p->command ) );
                     break;
